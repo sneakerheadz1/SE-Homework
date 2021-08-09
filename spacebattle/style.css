@@ -1,0 +1,19 @@
+html {
+    font-size: 40px;
+    text-align: center;
+   font-weight: bold;
+   margin-top: 15%;
+   
+  }
+
+  #btn {
+    border: .1rem orange;
+    border-radius: .2rem;
+    margin: .1rem;
+    font-size: .5rem;
+    padding: .4rem .8rem;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: navy;
+  }
