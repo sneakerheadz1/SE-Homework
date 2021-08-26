@@ -1,0 +1,61 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.2fr 1.2fr;
+  grid-template-areas: 
+  "side-bar stat-bar stat-bar stat-bar"
+  "side-bar visitor-bar visitor-bar visitor-bar";
+  
+  background-color: rgb(227, 227, 227);
+}
+
+
+#side-bar {
+  background-color:rgb(174, 174, 174);
+  grid-area:side-bar;
+  width: 20vw;
+  text-align: center;
+  align-items: center;
+}
+
+#stat-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* background-color: yellow; */
+  /* gap: 5px; */
+  grid-area: stat-bar;
+}
+
+.reviews {
+  background-color:lightgray;
+  margin: 3%;
+  padding: 2%;
+}
+
+.rating {
+  background-color:lightgray;
+  margin: 3%;
+  padding: 2%;
+}
+
+.analysis {
+  background-color:lightgray;
+  margin: 3%;
+  text-align: center;
+}
+
+
+#visitor-bar {
+  display: inline;
+  background-color:lightgray;
+  grid-area: visitor-bar;
+ justify-content: center;
+}
+
+.inner-content {
+  background-color: darkgray;
+  
+  width: 200px;
+  height: 200px;
+}
