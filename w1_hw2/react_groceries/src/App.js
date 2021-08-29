@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ProductList from './ProductList.js';
 import groceriesList from './Data'
-import ShoppingCart from './ShoppingCart.js';
+// import ShoppingCart from './ShoppingCart.js';
 import './App.css';
 
 
