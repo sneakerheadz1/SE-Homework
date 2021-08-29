@@ -1,0 +1,36 @@
+#title {
+  background-color: lightblue;
+  margin: 0%;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.products-container, .form-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#form {
+  background-color: lightyellow;
+  width: 15rem;
+  margin: 1%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  background-color: rgb(35, 116, 228);
+  color: white;
+  margin: 0.2rem;
+}
+
+.preview {
+  background-color: lightgray;
+  margin: 1%;
+  padding: 1%;
+}
+
+.headline {
+  background-color: lightsalmon;
+}
