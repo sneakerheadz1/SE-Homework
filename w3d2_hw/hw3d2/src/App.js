@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Student from './Student';
-import Score from './Score';
+// import Score from './Score';
 
 
 
