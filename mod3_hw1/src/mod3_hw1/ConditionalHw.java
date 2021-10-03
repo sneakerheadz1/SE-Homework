@@ -9,7 +9,7 @@ public class ConditionalHw {
 		System.out.println("Enter Grade: ");
 		
 		Scanner scanner = new Scanner(System.in);	
-		int grade = grade.nextInt();
+		grade = scanner.nextInt();
 		
 		if(grade > 90)
 		{
